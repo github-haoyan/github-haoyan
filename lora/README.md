@@ -130,6 +130,3 @@ Reason: Check failed: a->dtype() == b->dtype() Something wrong...
    model.float16()
    ```  
 3. 长期：升级到最新 Jittor 版本，或关注官方修复 dtype mismatch 问题。
-
-> 通过分别针对多进程加载和自动混合精度问题进行配置，可在 Windows 平台上稳定运行 Jittor 实验。  
-````markdown
